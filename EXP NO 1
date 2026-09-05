@@ -1,1 +1,11 @@
 ## DESIGN OF SINGLE-STAGE COMMON- EMITTER AMPLIFIER USING LT SPICE
+## AIM
+To design and simulate a single-stage common-emitter amplifier using a transistor in LT spice, and to analyse its frequency response to determine the voltage gain and bandwidth
+## SOFTWARE REQUIRED
+LTSpice Simulator
+## SOFTWARE DESCRIPTION
+LTspice is completely free with no feature restrictions, making it accessible for students, hobbyists, and professionals alike.Built on the SPICE simulation engine, it provides precise analog circuit simulation including transient, AC, DC sweep, and noise analyses.. Comes with a vast library of passive components, semiconductors (like BJTs, FETs, op-amps), and Analog Devices IC models.
+Users can import 3rd-party models or create custom subcircuits and include them using .include and.lib directives. Allows intuitive schematic creation using drag-and-drop components and easy wiring tools. Includes a built-in waveform viewer with support for math operations, cursors, FFT, and differential measurements. LTspice is widely adopted in education for teaching electronics and in industry for circuit design, saving time and cost before physical prototyping.
+## THEORY
+A common emitter amplifier is type of BJT amplifier which increases the voltage level of the applied input signal Vin at output of collector. The CE amplifier typically has a relatively high input resistance (1 - 10 KΩ) and a fairly high output resistance. Therefore it is generally used to drive medium to high resistance loads. It is typically used in applications where a small voltage signal needs to be amplified to a large voltage signal as in radio receivers.
+The input signal Vin is applied to base emitter junction of the transistor and amplifier output Vo is taken across collector terminal. Transistor is maintained at the active region by using the resistors R1, R2 and Rc. A very small change in base current produces a much larger change in collector current. The output Vo of the common emitter amplifier is 180 degrees out of phase with the applied the input signal Vin.
